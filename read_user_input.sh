@@ -8,3 +8,7 @@ echo "I like ${colors[0]}, ${colors[1]} and ${colors[2]}"
 echo -e "Enter two numbers"
 read number1 number2
 echo "You entered $number1 and $number2"
+# using $REPLY
+echo "How are you?"
+read
+echo "I am $REPLY"
